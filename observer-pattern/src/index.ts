@@ -10,8 +10,12 @@ const statsDisplay = new StatsDisplay(weatherData);
 const forecastDisplay = new ForeCastDisplay(weatherData);
 
 weatherData.setMeasurements(80, 65, 30.4);
-weatherData.setMeasurements(82, 70, 29.2);
-weatherData.setMeasurements(78, 90, 29.2);
+setTimeout(() => {
+  weatherData.setMeasurements(82, 70, 29.2);
+}, 1000);
+setTimeout(() => {
+  weatherData.setMeasurements(78, 90, 29.2);
+}, 2000);
 // Output:
 // Current conditions: 80F degrees and 65% humidity
 // Avg/Max/Min temperature = 80/80/80
