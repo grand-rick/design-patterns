@@ -82,7 +82,7 @@ Multiply: 50
 - Create an instance of the context class and pass a concrete strategy to it
 - Call the method that will execute the strategy
 
-For more code snippets, check the code in this folder.
+For more code snippets, check the code in the `src` folder.
 
 > To run the main file (src/index.ts) and see the output, run `ts-node src/index.ts` in your terminal.
 >
