@@ -13,7 +13,9 @@ export class HeatIndexDisplay implements DisplayElement {
     console.log(`Heat index is ${this.heatIndex}`);
   }
 
-  update(temp: number, humidity: number): void {
+  update(): void {
+    const temp = this.weatherData.getTemperature();
+    const humidity = this.weatherData.getHumidity();
     this.heatIndex = this.computeHeatIndex(temp, humidity);
     this.display();
   }

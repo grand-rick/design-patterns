@@ -16,12 +16,24 @@ export class WeatherData implements Subject {
 
   notifyObserver(): void {
     for (const observer of this.list) {
-      observer.update(this.temperature, this.humidity, this.pressure);
+      observer.update();
     }
   }
 
   measurementsChanged(): void {
     this.notifyObserver();
+  }
+
+  getTemperature(): number {
+    return this.temperature;
+  }
+
+  getHumidity(): number {
+    return this.humidity;
+  }
+
+  getPressure(): number {
+    return this.pressure;
   }
 
   setMeasurements(

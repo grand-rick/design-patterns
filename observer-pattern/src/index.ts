@@ -11,6 +11,11 @@ const statsDisplay = new StatsDisplay(weatherData);
 const forecastDisplay = new ForeCastDisplay(weatherData);
 const heatIndexDisplay = new HeatIndexDisplay(weatherData);
 
+// weatherData.registerObserver(currentConditionsDisplay);
+// weatherData.registerObserver(statsDisplay);
+// weatherData.registerObserver(forecastDisplay);
+// weatherData.registerObserver(heatIndexDisplay);
+
 weatherData.setMeasurements(80, 65, 30.4);
 setTimeout(() => {
   weatherData.setMeasurements(82, 70, 29.2);

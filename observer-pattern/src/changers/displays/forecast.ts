@@ -1,4 +1,4 @@
-import { DisplayElement, Observer, Subject } from "../../interfaces";
+import { DisplayElement, Observer, Subject } from "../interfaces";
 
 export class ForeCastDisplay implements Observer, DisplayElement {
   private temperature: number = 0;
@@ -11,10 +11,10 @@ export class ForeCastDisplay implements Observer, DisplayElement {
     weatherData.registerObserver(this);
   }
 
-  update(temperature: number, humidity: number, pressure: number): void {
-    this.temperature = temperature;
-    this.humidity = humidity;
-    this.pressure = pressure;
+  update(): void {
+    this.temperature = this.weatherData.getTemperature();
+    this.humidity = this.weatherData.getHumidity();
+    this.pressure = this.weatherData.getPressure();
     this.display();
   }
 

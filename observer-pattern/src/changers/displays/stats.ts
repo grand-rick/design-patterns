@@ -1,4 +1,4 @@
-import { DisplayElement, Observer, Subject } from "../../interfaces";
+import { DisplayElement, Observer, Subject } from "../interfaces";
 
 export class StatsDisplay implements Observer, DisplayElement {
   private temperature: number = 0;
@@ -15,19 +15,19 @@ export class StatsDisplay implements Observer, DisplayElement {
     weatherData.registerObserver(this);
   }
 
-  update(temperature: number, humidity: number, pressure: number): void {
-    this.temperature = temperature;
-    this.humidity = humidity;
-    this.pressure = pressure;
-    this.temperatureSum += temperature;
+  update(): void {
+    this.temperature = this.weatherData.getTemperature();
+    this.humidity = this.weatherData.getHumidity();
+    this.pressure = this.weatherData.getPressure();
+    this.temperatureSum += this.temperature;
     this.numReadings++;
 
-    if (temperature > this.maxTemperature) {
-      this.maxTemperature = temperature;
+    if (this.temperature > this.maxTemperature) {
+      this.maxTemperature = this.temperature;
     }
 
-    if (temperature < this.minTemperature) {
-      this.minTemperature = temperature;
+    if (this.temperature < this.minTemperature) {
+      this.minTemperature = this.temperature;
     }
 
     this.display();
