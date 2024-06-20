@@ -1,6 +1,6 @@
 ## OBSERVER PATTERN
 
-The observer pattern is a software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them of state changes, usually by calling one of their methods. It is mainly used to implement distributed event handling systems.
+> _**Defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically**_
 
 ### UML Diagram
 
