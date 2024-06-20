@@ -1,4 +1,4 @@
-import { DisplayElement, Subject } from "../../interfaces";
+import { DisplayElement, Subject } from "../interfaces";
 
 export class HeatIndexDisplay implements DisplayElement {
   private heatIndex: number = 0.0;

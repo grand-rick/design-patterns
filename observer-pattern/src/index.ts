@@ -1,7 +1,7 @@
-import { CurrentConditionsDisplay } from "./changers/algorithms/displays/current_conditions";
-import { ForeCastDisplay } from "./changers/algorithms/displays/forecast";
-import { HeatIndexDisplay } from "./changers/algorithms/displays/heat_index";
-import { StatsDisplay } from "./changers/algorithms/displays/stats";
+import { CurrentConditionsDisplay } from "./changers/displays/current_conditions";
+import { ForeCastDisplay } from "./changers/displays/forecast";
+import { HeatIndexDisplay } from "./changers/displays/heat_index";
+import { StatsDisplay } from "./changers/displays/stats";
 import { WeatherData } from "./super-class/weather_data";
 
 const weatherData = new WeatherData();
