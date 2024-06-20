@@ -8,6 +8,10 @@
 - When you need to use one of several behaviors dynamically
 - When you want to change the behavior of an object at runtime
 
+### Strategy Pattern UML Diagram
+
+![strategy-pattern](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.geeksforgeeks.org%2Fwp-content%2Fuploads%2Fboxi3.jpg&f=1&nofb=1&ipt=3502ab5a0094d14ac510052f4debd111c097e66c717e56e724e251e85a780249&ipo=images)
+
 ### Example
 
 ```typescript
