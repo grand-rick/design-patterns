@@ -20,3 +20,4 @@
 
 1. [Strategy Pattern](./strategy-pattern/README.md)
 1. [Observer Pattern](./observer-pattern/README.md)
+1. [Decorator Pattern](./decorator-pattern/README.md)
