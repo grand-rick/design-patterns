@@ -29,7 +29,7 @@
 
 ### Cons
 
-- A lot of small objects can be overwhelming.
+- Decorators can result in many small objects in our design, and overuse can be complex.
 - Often used with other patterns such as Factory and Builder.
 - Can lead to a system with a large number of small objects that look similar but are actually different.
 
