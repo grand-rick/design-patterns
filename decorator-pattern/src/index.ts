@@ -1,8 +1,14 @@
 import { Beverage } from "./base-class/base";
 import { DarkRoast, Espresso, HouseBlend } from "./beverages/beverages";
 import { Mocha, Soy, Whip } from "./condiments/condiments";
+import { Size } from "./base-class/base";
 
-let beverage: Beverage = new Espresso();
+let TALL = Size.TALL;
+let GRANDE = Size.GRANDE;
+let VENTI = Size.VENTI;
+
+let beverage: Beverage = new Espresso().setSize(GRANDE);
+beverage = new Mocha(beverage);
 
 console.log(`${beverage.getDescription()} $${beverage.cost()}`);
 

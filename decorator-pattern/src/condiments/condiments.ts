@@ -11,7 +11,21 @@ export class Mocha extends CondimentDecorator {
   }
 
   cost(): number {
-    return this.beverage.cost() + 0.2;
+    let cost = this.beverage.cost();
+
+    switch (this.beverage.getSize()) {
+      case "TALL":
+        cost += 0.1;
+        break;
+      case "GRANDE":
+        cost += 0.15;
+        break;
+      case "VENTI":
+        cost += 0.2;
+        break;
+    }
+
+    return cost;
   }
 }
 
@@ -26,7 +40,21 @@ export class Soy extends CondimentDecorator {
   }
 
   cost(): number {
-    return this.beverage.cost() + 0.15;
+    let cost = this.beverage.cost();
+
+    switch (this.beverage.getSize()) {
+      case "TALL":
+        cost += 0.15;
+        break;
+      case "GRANDE":
+        cost += 0.2;
+        break;
+      case "VENTI":
+        cost += 0.25;
+        break;
+    }
+
+    return cost;
   }
 }
 
@@ -41,6 +69,20 @@ export class Whip extends CondimentDecorator {
   }
 
   cost(): number {
-    return this.beverage.cost() + 0.1;
+    let cost = this.beverage.cost();
+
+    switch (this.beverage.getSize()) {
+      case "TALL":
+        cost += 0.1;
+        break;
+      case "GRANDE":
+        cost += 0.15;
+        break;
+      case "VENTI":
+        cost += 0.2;
+        break;
+    }
+
+    return cost;
   }
 }
