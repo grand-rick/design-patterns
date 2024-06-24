@@ -21,10 +21,11 @@
 
 ### Pros
 
-- More flexibility than static inheritance.
+- More flexibility than static inheritance. (Open/Closed Principle)
 - Avoids feature-laden classes high up in the hierarchy.
 - A decorator and its component aren't tightly coupled.
 - Can add functionality to individual objects at runtime.
+- Can have multiple decorators for a single component.
 
 ### Cons
 
