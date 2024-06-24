@@ -4,7 +4,7 @@
 
 ### UML Diagram
 
-![Observer Pattern UML Diagram](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.ionos.ca%2Fdigitalguide%2Ffileadmin%2FDigitalGuide%2FSchaubilder%2Fgraphic-depiction-of-the-decorator-pattern.png&f=1&nofb=1&ipt=1c3e6a9ff8e7a228c51ae51684ce31b64c26bb1164a26c24a18d0090e9d89ea1&ipo=images)
+![Decorator Pattern UML Diagram](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.ionos.ca%2Fdigitalguide%2Ffileadmin%2FDigitalGuide%2FSchaubilder%2Fgraphic-depiction-of-the-decorator-pattern.png&f=1&nofb=1&ipt=1c3e6a9ff8e7a228c51ae51684ce31b64c26bb1164a26c24a18d0090e9d89ea1&ipo=images)
 
 ### Participants
 
