@@ -1,7 +1,7 @@
 import { FlyBehavior } from "../behaviors/fly.behavior";
 import { QuackBehavior } from "../behaviors/quack.behavior";
 
-export class Duck {
+export abstract class Duck {
   flyBehavior: FlyBehavior | undefined;
   quackBehavior: QuackBehavior | undefined;
 
@@ -9,7 +9,7 @@ export class Duck {
     console.log("swimming");
   }
 
-  display(): void {}
+  abstract display(): void;
 
   performFly(): void {
     this.flyBehavior?.fly();
