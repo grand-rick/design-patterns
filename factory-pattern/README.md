@@ -20,6 +20,8 @@ The Factory Method Pattern is a creational pattern that defines an interface for
 >
 > ![Product Classes](https://res.cloudinary.com/dv765kdgq/image/upload/v1719501679/f0131-02_vtxk4t.png)
 
+> ![Relationship](https://res.cloudinary.com/dv765kdgq/image/upload/v1719501949/f0132-01_gw17i6.png)
+
 ### UML Diagram
 
 ![Factory Pattern Image](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.oodesign.com%2Fimages%2Fstories%2Ffactory%2520method%2520example%2520-%2520uml%2520class%2520diagram.gif&f=1&nofb=1&ipt=2a773821ab63d7765d2ea538edb4edcc4db9164a92a0a76242c39aeff75f9d94&ipo=images)
