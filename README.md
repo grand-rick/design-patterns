@@ -30,3 +30,6 @@
 1. [Decorator Pattern](./decorator-pattern/README.md)
    - Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
      ![Decorator Pattern Image](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fintegu.net%2Fwp-content%2Fuploads%2F2020%2F11%2FDecorator-Pattern-Class-Diagram-UML-1024x576.png&f=1&nofb=1&ipt=cead7ea7bea729601e29863fefc3ea4e382b0381544b680069ac37e70259dd42&ipo=images)
+1. [Factory Pattern](./factory-pattern/README.md)
+   - Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
+     ![Factory Pattern Image](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.oodesign.com%2Fimages%2Fstories%2Ffactory%2520method%2520implementation%2520-%2520uml%2520class%2520diagram.gif&f=1&nofb=1&ipt=a842c6aa368b7745dbf8c8d831ae66a679d629d02f9144ff4dafd037680d24fa&ipo=images)
