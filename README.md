@@ -1,6 +1,8 @@
 # Design Patterns 101
 
-> This repository contains examples of design patterns in Typescript.
+> This repository is a collection of design patterns in object-oriented programming.
+>
+> > The repository is a work in progress and will be updated as I learn more about design patterns.
 
 ## OO basics
 
